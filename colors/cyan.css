@@ -1,0 +1,35 @@
+.filters ul .select-filter a,
+.filters ul li a:hover,
+.blog-item .blog-title a:hover,
+.blog-item .meta-data a:hover,
+.f-title a:hover,
+.social-link li a:hover,
+.social-share li a:hover,
+.portfolio-pagination a:hover,
+.portfolio-pagination a:hover i,
+.widget ul li a:hover,
+.single-post .meta-data a:hover,
+.post-pagination a:hover,
+.post-pagination a:hover i {
+  color: #5ed9e7;
+}
+
+.filters ul .select-filter a:before,
+.filters ul li a:hover:before,
+.menu-responsive-toggle:hover,
+.menu-nav > .menu-item.menu-dropdown .menu-toggle-dropdown:hover {
+  background-color: #5ed9e7;
+}
+
+.blog-item .blog-title:hover:after,
+.f-title a:hover:after,
+.social-link li a:hover:after {
+  border-color: #5ed9e7;
+}
+
+.toggle-button:hover,
+.all-portfolio:hover,
+.load-more-button .btn:hover {
+  background-color: #5ed9e7;
+  border-color: #5ed9e7;
+}

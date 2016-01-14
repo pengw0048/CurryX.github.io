@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jialin Xu&#39;s Blog</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 15 Jan 2016 01:55:14 +0800</pubDate>
+    <lastBuildDate>Fri, 15 Jan 2016 01:55:14 +0800</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Newindex</title>
+        <description>
+&lt;!DOCTYPE html&gt;
+&lt;!--[if lt IE 7 ]&gt; &lt;html class=&quot;ie ie6&quot;&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 7 ]&gt;    &lt;html class=&quot;ie ie7&quot;&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 8 ]&gt;    &lt;html class=&quot;ie ie8&quot;&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 9 ]&gt;    &lt;html class=&quot;ie ie9&quot;&gt; &lt;![endif]--&gt;
+&lt;!--[if (gt IE 9)|!(IE)]&gt;&lt;!--&gt; &lt;html class=&quot;&quot; lang=&quot;en&quot;&gt; &lt;!--&lt;![endif]--&gt;
+&lt;head&gt;
+	&lt;meta charset=&quot;UTF-8&quot;&gt;
+
+	&lt;title&gt;Jialin Xu&#39;s portfolio&lt;/title&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot;&gt;
+
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/bootstrap.min.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/font-awesome.min.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/owl.carousel.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/owl.theme.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/owl.transitions.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/style2.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/colors/cyan.css&quot;&gt;
+
+&lt;script src=&#39;/google_analytics_auto.js&#39;&gt;&lt;/script&gt;&lt;/head&gt;
+&lt;body class=&quot;color-grey&quot;&gt;
+
+	&lt;div id=&quot;loader-wrapper&quot;&gt;
+        &lt;div id=&quot;loader&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;loader-logo&quot;&gt;
+            &lt;img src=&quot;img/logo.png&quot; alt=&quot;&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;loader-section section-left&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;loader-section section-right&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+	
+	&lt;div class=&quot;wrapper color-grey&quot;&gt;
+		
+		&lt;section id=&quot;header&quot; class=&quot;header&quot;&gt;
+			&lt;div class=&quot;container&quot;&gt;
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;col-md-12&quot;&gt;
+
+
+						&lt;div class=&quot;logo&quot;&gt;
+							&lt;a href=&quot;/&quot;&gt;&lt;img src=&quot;img/logo.png&quot; alt=&quot;LOGO&quot;&gt;&lt;/a&gt;
+						&lt;/div&gt;
+
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/section&gt;&lt;!-- /header --&gt;
+
+		&lt;section class=&quot;title&quot;&gt;
+			&lt;div class=&quot;container&quot;&gt;
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;col-md-12&quot;&gt;
+						&lt;div class=&quot;title-inner text-center no-pad-bottom no-pad-top&quot;&gt;
+							&lt;div class=&quot;title-border &quot;&gt;
+								&lt;h2 class=&quot;title-heading  no-pad-bottom&quot;&gt;Jialin Xu&lt;/h2&gt; &lt;p class=&quot;title-dsc no-pad-top no-pad-bottom&quot;&gt;I am one of those lucky people who have the chance to work on things they love and then make a difference.&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/section&gt;&lt;!--  /title --&gt;
+
+
+		&lt;section class=&quot;portfolio&quot;&gt;
+			&lt;div class=&quot;container&quot;&gt;
+
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;col-md-12&quot;&gt;
+
+						&lt;!--&lt;div id=&quot;filters&quot; class=&quot;filters text-uppercase text-center&quot;&gt;
+			                &lt;ul class=&quot;show-filters&quot;&gt;
+			                    &lt;li class=&quot;select-filter&quot;&gt;&lt;a href=&quot;#&quot; data-filter=&quot;*&quot; id=&quot;all&quot;&gt;Show all&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.ux&quot;&gt;UX Design&lt;/a&gt;&lt;/li&gt;
+			                    &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.mobile&quot;&gt;Mobile Design&lt;/a&gt;&lt;/li&gt;
+			                    &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.web&quot;&gt;Web Design&lt;/a&gt;&lt;/li&gt;
+			                    &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.print&quot;&gt;Print Design&lt;/a&gt;&lt;/li&gt;
+			                    &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.photography&quot;&gt;Photography&lt;/a&gt;&lt;/li&gt;
+			                &lt;/ul&gt;
+			            &lt;/div&gt;--&gt;&lt;!-- /filters --&gt;
+
+
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+
+
+	            		&lt;div id=&quot;work-wrap&quot; class=&quot;row&quot;&gt;
+
+
+				            &lt;!-- WORK ITEM --&gt;
+				            &lt;div class=&quot;item work-item imageParallax col-xs-12 col-sm-4 col-md-4 web uxd&quot;&gt;
+				                &lt;div class=&quot;item-inner&quot;&gt;
+					                &lt;a class=&quot;image-wrap&quot; href=&quot;#&quot;&gt;
+					                    &lt;img src=&quot;img/1.jpg&quot; alt=&quot;&quot; class=&quot;image&quot;&gt;
+					                &lt;/a&gt;
+					                &lt;div class=&quot;caption bg-orange-red&quot;&gt;
+					                    &lt;div class=&quot;inner&quot;&gt;
+					                        &lt;h4 class=&quot;sm text-uppercase&quot;&gt;&lt;a href=&quot;#&quot;&gt;Curry&lt;/a&gt;&lt;/h4&gt;
+					                        &lt;em&gt;Web Design&lt;/em&gt;
+					                    &lt;/div&gt;
+					                    
+					                &lt;/div&gt;
+					            &lt;/div&gt;
+				            &lt;/div&gt;
+				            &lt;!-- END / WORK ITEM --&gt;
+
+				&lt;!-- WORK ITEM --&gt;
+				            &lt;div class=&quot;item work-item imageParallax col-xs-12 col-sm-8 col-md-8 uxd&quot;&gt;
+				                &lt;div class=&quot;item-inner&quot;&gt;
+					                &lt;a class=&quot;image-wrap&quot; href=&quot;#&quot; target=&quot;_blank&quot;&gt;
+					                    &lt;img src=&quot;img/2.jpg&quot; alt=&quot;&quot; class=&quot;image&quot;&gt;
+					                &lt;/a&gt;
+					                &lt;div class=&quot;caption bg-black&quot; href=&quot;#&quot; target=&quot;_blank&quot;&gt;
+                                    &lt;a class=&quot;image-wrap&quot; href=&quot;#&quot; target=&quot;_blank&quot;&gt;
+					                    &lt;div class=&quot;inner&quot;&gt;
+					                        &lt;h4 class=&quot;sm text-uppercase&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt; 你HCI申请路上的坚实伴侣&lt;/a&gt;&lt;/h4&gt;
+					                        &lt;em&gt;Consulting&lt;/em&gt;
+					                    &lt;/div&gt;
+                                       &lt;/a&gt;
+					                &lt;/div&gt;
+					            &lt;/div&gt;
+				            &lt;/div&gt;
+				            &lt;!-- END / WORK ITEM --&gt;
+                            
+                            &lt;!-- WORK ITEM --&gt;
+				            &lt;div class=&quot;item work-item imageParallax col-xs-12 col-sm-8 col-md-8 uxd&quot;&gt;
+				                &lt;div class=&quot;item-inner&quot;&gt;
+					                &lt;a class=&quot;image-wrap&quot; href=&quot;projects/g2mep.html&quot;&gt;
+					                    &lt;img src=&quot;img/g2mep/snapshot.png&quot; alt=&quot;&quot; class=&quot;image&quot;&gt;
+					                &lt;/a&gt;
+					                &lt;div class=&quot;caption bg-yellow&quot; href=&quot;projects/g2mep.html&quot;&gt;
+                                    &lt;a class=&quot;image-wrap&quot; href=&quot;projects/g2mep.html&quot;&gt;
+					                    &lt;div class=&quot;inner&quot;&gt;
+					                        &lt;h4 class=&quot;sm text-uppercase&quot;&gt;&lt;a href=&quot;projects/g2mep.html&quot;&gt;G2M application refresh&lt;/a&gt;&lt;/h4&gt;
+					                        &lt;em&gt;UX Design&lt;/em&gt;
+					                    &lt;/div&gt;
+                                       &lt;/a&gt;
+					                &lt;/div&gt;
+					            &lt;/div&gt;
+				            &lt;/div&gt;
+				            &lt;!-- END / WORK ITEM --&gt;
+                            
+                              &lt;!-- WORK ITEM --&gt;
+				            &lt;div class=&quot;item work-item imageParallax col-xs-12 col-sm-4 col-md-4&quot;&gt;
+				                &lt;div class=&quot;item-inner&quot;&gt;
+					                &lt;a class=&quot;image-wrap&quot; href=&quot;projects/amazon.html&quot;&gt;
+					                    &lt;img src=&quot;img/amazon/snapshot.png&quot; alt=&quot;&quot; class=&quot;image&quot;&gt;
+					                &lt;/a&gt;
+					                &lt;div class=&quot;caption bg-orange&quot;&gt;
+					                    &lt;div class=&quot;inner&quot;&gt;
+					                        &lt;h4 class=&quot;sm text-uppercase&quot;&gt;&lt;a href=&quot;projects/amazon.html&quot;&gt;AmazonGlobal usability testing&lt;/a&gt;&lt;/h4&gt;
+					                        &lt;em&gt;UX Research&lt;/em&gt;
+					                    &lt;/div&gt;
+					                &lt;/div&gt;
+					            &lt;/div&gt;
+				            &lt;/div&gt;
+				            &lt;!-- END / WORK ITEM --&gt;
+                            
+                            
+				            &lt;!-- WORK ITEM --&gt;
+				            &lt;div class=&quot;item work-item imageParallax col-xs-12 col-sm-4 col-md-4&quot;&gt;
+				                &lt;div class=&quot;item-inner&quot;&gt;
+					                &lt;a class=&quot;image-wrap&quot; href=&quot;projects/htc.html&quot;&gt;
+					                    &lt;img src=&quot;img/htc/snapshot.png&quot; alt=&quot;&quot; class=&quot;image&quot;&gt;
+					                &lt;/a&gt;
+					                &lt;div class=&quot;caption bg-green&quot;&gt;
+					                    &lt;div class=&quot;inner&quot;&gt;
+					                        &lt;h4 class=&quot;sm text-uppercase&quot;&gt;&lt;a href=&quot;projects/htc.html&quot;&gt;HTC Ice winter olympic app&lt;/a&gt;&lt;/h4&gt;
+					                        &lt;em&gt;UX Design&lt;/em&gt;
+					                    &lt;/div&gt;
+					                &lt;/div&gt;
+					            &lt;/div&gt;
+				            &lt;/div&gt;
+				            &lt;!-- END / WORK ITEM --&gt;
+
+
+
+				            &lt;!-- WORK ITEM --&gt;
+				            &lt;div class=&quot;item work-item imageParallax col-xs-12 col-sm-4 col-md-4 uxd&quot;&gt;
+				            	&lt;div class=&quot;item-inner&quot;&gt;
+					                &lt;a class=&quot;image-wrap&quot; href=&quot;projects/chase.html&quot;&gt;
+					                    &lt;img src=&quot;img/chase/snapshot.png&quot; alt=&quot;&quot; class=&quot;image&quot;&gt;
+					                &lt;/a&gt;
+					                &lt;div class=&quot;caption bg-blue&quot;&gt;
+					                    &lt;div class=&quot;inner&quot;&gt;
+					                        &lt;h4 class=&quot;sm text-uppercase&quot;&gt;&lt;a href=&quot;projects/chase.html&quot;&gt;Chase eBills usability testing&lt;/a&gt;&lt;/h4&gt;
+					                        &lt;em&gt;UX Research&lt;/em&gt;
+					                    &lt;/div&gt;
+					                &lt;/div&gt;
+				                &lt;/div&gt;
+				            &lt;/div&gt;
+				            &lt;!-- END / WORK ITEM --&gt;
+
+
+
+
+		        		&lt;/div&gt;
+
+			&lt;/div&gt;
+		&lt;/section&gt; &lt;!-- /portfolio --&gt;
+        
+        &lt;footer class=&quot;footer&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                
+                &lt;hr class=&quot;divider&quot;&gt;
+                
+				&lt;div class=&quot;footer-info&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;div class=&quot;col-md-4&quot;&gt;
+                            &lt;div class=&quot;logo-footer equal-height&quot;&gt;
+                                
+                               
+                                &lt;h3 class=&quot;head-title&quot;&gt;Get connected with me&lt;/h3&gt;
+                                
+                                &lt;ul class=&quot;social-link&quot;&gt;
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-behance&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-tumblr&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-dribbble&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;col-md-4&quot;&gt;
+                            &lt;div class=&quot;twitter text-center equal-height&quot;&gt;
+                                &lt;div class=&quot;f-title&quot;&gt;
+                                    &lt;i class=&quot;fa fa-file-pdf-o&quot;&gt;&lt;/i&gt;
+                                    &lt;br /&gt;
+                                    &lt;br /&gt;
+                                    &lt;br /&gt;
+                                    
+                                    &lt;a href=&quot;JialinXu.pdf&quot;&gt;Download my portfolio&lt;/a&gt;
+                                &lt;/div&gt;
+                                
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class=&quot;col-md-4&quot;&gt;
+                            &lt;div class=&quot;footer-slide text-center equal-height&quot;&gt;
+                                &lt;div class=&quot;f-title&quot;&gt;
+                                    &lt;i class=&quot;fa fa-envelope-o&quot;&gt;&lt;/i&gt;
+                                     &lt;a href=&quot;/cdn-cgi/l/email-protection#29505c4148474e5c5e694e44484045074a4644&quot;&gt;Email:&lt;span class=&quot;__cf_email__&quot; data-cfemail=&quot;334a465b525d54464473545e525a5f1d505c5e&quot;&gt;[email&amp;#160;protected]&lt;/span&gt;&lt;script data-cfhash=&#39;f9e31&#39; type=&quot;text/javascript&quot;&gt;
+/* &lt;![CDATA[ */!function(){try{var t=&quot;currentScript&quot;in document?document.currentScript:function(){for(var t=document.getElementsByTagName(&quot;script&quot;),e=t.length;e--;)if(t[e].getAttribute(&quot;data-cfhash&quot;))return t[e]}();if(t&amp;&amp;t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute(&quot;data-cfemail&quot;);if(a){for(e=&quot;&quot;,r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]&gt; */&lt;/script&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;f-title&quot;&gt;
+                                    &lt;i class=&quot;fa fa-mobile&quot;&gt;&lt;/i&gt;
+                                    &lt;a href=&quot;#&quot;&gt;Cell:86 15101122595~~~aaaa&lt;/a&gt;
+                                &lt;/div&gt;
+                                
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;hr class=&quot;divider&quot;&gt;
+                &lt;div class=&quot;row&quot;&gt;
+                    &lt;div class=&quot;col-md-12&quot;&gt;
+                        &lt;div class=&quot;copy-right text-center&quot;&gt;
+                            &lt;p&gt;© 2015 Hang Yu&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                
+            &lt;/div&gt;
+        &lt;/footer&gt;
+
+
+
+
+
+	&lt;/div&gt;&lt;!-- /wrapper --&gt;
+
+    &lt;script type=&quot;text/javascript&quot; src=&quot;js/lib/jquery-1.11.2.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;js/lib/ie10-viewport-bug-workaround.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;js/lib/isotope.pkgd.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;js/lib/imagesloaded.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;js/lib/owl.carousel.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;js/lib/jquery.matchHeight-min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;js/lib/masonry.pkgd.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;js/scripts.js&quot;&gt;&lt;/script&gt;
+
+
+	&lt;script&gt;
+  (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,&#39;script&#39;,&#39;//www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
+
+  ga(&#39;create&#39;, &#39;UA-38313226-1&#39;, &#39;auto&#39;);
+  ga(&#39;send&#39;, &#39;pageview&#39;);
+
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+/* &lt;![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName(&quot;a&quot;),t=document.createElement(&quot;textarea&quot;);for(i=0;l.length-i;i++){try{a=l[i].getAttribute(&quot;href&quot;);if(a&amp;&amp;a.indexOf(&quot;/cdn-cgi/l/email-protection&quot;) &gt; -1  &amp;&amp; (a.length &gt; 28)){s=&#39;&#39;;j=27+ 1 + a.indexOf(&quot;/cdn-cgi/l/email-protection&quot;);if (a.length &gt; j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length&gt;j&amp;&amp;a.substr(j,1)!=&#39;X&#39;;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/&lt;/g,&quot;&amp;lt;&quot;).replace(/&gt;/g,&quot;&amp;gt;&quot;);l[i].setAttribute(&quot;href&quot;,&quot;mailto:&quot;+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+        <pubDate>Fri, 15 Jan 2016 00:00:00 +0800</pubDate>
+        <link>http://yourdomain.com/2016/01/15/newindex.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/01/15/newindex.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 14 Jan 2016 01:45:51 +0800</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2016/01/14/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/01/14/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Index</title>
+        <description>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+  &lt;meta http-equiv=&quot;Content-Style-Type&quot; content=&quot;text/css&quot;&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;meta name=&quot;Generator&quot; content=&quot;Cocoa HTML Writer&quot;&gt;
+  &lt;meta name=&quot;CocoaVersion&quot; content=&quot;1404.11&quot;&gt;
+  &lt;style type=&quot;text/css&quot;&gt;
+    p.p1 {margin: 0.0px 0.0px 36.0px 0.0px; text-align: center; line-height: 42.0px; font: 36.0px Arial; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #0000ee; -webkit-text-stroke: #0000ee}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p6 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p7 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #0000ee; -webkit-text-stroke: #0000ee}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p9 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #0000ee; -webkit-text-stroke: #0000ee}
+    li.li4 {margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li8 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {-webkit-text-stroke: 0px #000000}
+    span.s3 {text-decoration: underline ; font-kerning: none}
+    span.s4 {font: 18.0px Times; -webkit-text-stroke: 0px #000000}
+    span.s5 {font: 18.0px Times; font-kerning: none}
+    span.s6 {font: 12.0px Times; text-decoration: underline ; font-kerning: none; color: #0000ee; -webkit-text-stroke: 0px #0000ee}
+    span.s7 {font: 12.0px Times; font-kerning: none; color: #0000ee; -webkit-text-stroke: 0px #0000ee}
+    span.s8 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s9 {font-kerning: none; color: #0000ee; -webkit-text-stroke: 0px #0000ee}
+    span.s10 {color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s11 {text-decoration: underline ; font-kerning: none; color: #0000ee; -webkit-text-stroke: 0px #0000ee}
+    ul.ul1 {list-style-type: disc}
+    ul.ul2 {list-style-type: none}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p class=&quot;p1&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;b&gt; &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;ul1&quot;&gt;
+  &lt;li class=&quot;li2&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/index_zqg.html&quot;&gt;&lt;span class=&quot;s3&quot;&gt;Home&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class=&quot;li2&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/about%20me.html&quot;&gt;&lt;span class=&quot;s3&quot;&gt;About Me&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class=&quot;li2&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/portfolio.html&quot;&gt;&lt;span class=&quot;s3&quot;&gt;Portfolio&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class=&quot;li2&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/%7B%7B%20site.baseurl%7D%7D/test/contact.html&quot;&gt;&lt;span class=&quot;s3&quot;&gt;Contact&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&quot;p3&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul class=&quot;ul2&quot;&gt;
+  &lt;li class=&quot;li4&quot;&gt;&lt;span class=&quot;s4&quot;&gt;&lt;b&gt;&lt;/b&gt;&lt;/span&gt;&lt;span class=&quot;s5&quot;&gt;&lt;b&gt;BetterRead&lt;br&gt;
+&lt;/b&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;BetterRead is a rehabilitation training software aiming to improve the language (mainly Chinese) abilities of people with dyslexia, who has difficulties with recognizing, reading and writing word. I worked as the only designer in our team, responsible for designing the entire user interface and foreground coding. This software also won the second prize in Imagine Cup 2013 China Region.&lt;br&gt;
+&lt;br&gt;
+&lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/portfolio_001_imaginecup.html&quot;&gt;&lt;span class=&quot;s6&quot;&gt;Click here to get more detail.&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;/span&gt;&lt;span class=&quot;s5&quot;&gt;&lt;b&gt;Programming | Interaction design&lt;br&gt;
+&lt;/b&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&lt;br&gt;
+&lt;/span&gt;&lt;/li&gt;
+  &lt;li class=&quot;li4&quot;&gt;&lt;span class=&quot;s4&quot;&gt;&lt;b&gt;&lt;/b&gt;&lt;/span&gt;&lt;span class=&quot;s5&quot;&gt;&lt;b&gt;Paint&lt;br&gt;
+&lt;/b&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;I love paint. In my spare time, I make digital illustrations by Photoshop and digital board, upload them to the Internet and communicate with others.&lt;br&gt;
+&lt;br&gt;
+&lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/portfolio_020_paint.html&quot;&gt;&lt;span class=&quot;s6&quot;&gt;Click here to get more detail.&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;/span&gt;&lt;span class=&quot;s5&quot;&gt;&lt;b&gt;Digital artwork&lt;br&gt;
+&lt;/b&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&lt;br&gt;
+&lt;/span&gt;&lt;/li&gt;
+  &lt;li class=&quot;li4&quot;&gt;&lt;span class=&quot;s4&quot;&gt;&lt;b&gt;&lt;/b&gt;&lt;/span&gt;&lt;span class=&quot;s5&quot;&gt;&lt;b&gt;LeTV - Smart TV Interactive Theme Design&lt;br&gt;
+&lt;/b&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;The difference of operating equipment between television, cell phone and PC determines their distinct interaction. Without mouse and touch screen, the UX design makes best use of remote control and avoids complicated operation.&lt;br&gt;
+&lt;br&gt;
+&lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/portfolio_010_letv.html&quot;&gt;&lt;span class=&quot;s6&quot;&gt;Click here to get more detail.&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;/span&gt;&lt;span class=&quot;s5&quot;&gt;&lt;b&gt;Interaction design&lt;br&gt;
+&lt;/b&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&lt;br&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 style=&quot;margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;b&gt;About Me&lt;/b&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;p class=&quot;p6&quot;&gt;&lt;span class=&quot;s1&quot;&gt;Hi! I am Qiuge Zhang. I am a student from School of Information and Communication Engineering at Beijing University of Posts and Telecommunication.&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p7&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/about%20me.html&quot;&gt;&lt;span class=&quot;s7&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p7&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/portfolio_020_paint.html&quot;&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s8&quot;&gt; &lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/portfolio_001_imaginecup.html&quot;&gt;&lt;span class=&quot;s9&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/portfolio_032_Tshirt.html&quot;&gt;&lt;span class=&quot;s9&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 style=&quot;margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;b&gt; &lt;/b&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;h2 style=&quot;margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;b&gt; &lt;/b&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;h2 style=&quot;margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;b&gt; &lt;/b&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;h2 style=&quot;margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;b&gt;My recent works&lt;/b&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;p class=&quot;p6&quot;&gt;&lt;span class=&quot;s1&quot;&gt;Here are my recentworks. To learn more about my works, please see my &lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/portfolio.html&quot;&gt;&lt;span class=&quot;s6&quot;&gt;portfilio&lt;/span&gt;&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p6&quot;&gt;&lt;span class=&quot;s1&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p3&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p class=&quot;p3&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p class=&quot;p7&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;a href=&quot;http://www.renren.com/341071924&quot;&gt;&lt;span class=&quot;s7&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p6&quot;&gt;&lt;span class=&quot;s1&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p6&quot;&gt;&lt;span class=&quot;s1&quot;&gt;To get more information, please follow my SNS.&lt;/span&gt;&lt;/p&gt;
+&lt;h2 style=&quot;margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;b&gt;Contact&lt;/b&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;ul class=&quot;ul1&quot;&gt;
+  &lt;li class=&quot;li8&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Beijing University of Posts and Telecommunications&lt;/span&gt;&lt;/li&gt;
+  &lt;li class=&quot;li8&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;No.10, Xitucheng Road, Haidian District, Beijing, P.R.China, 100876&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class=&quot;ul1&quot;&gt;
+  &lt;li class=&quot;li8&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Telephone: +(86) 189 0111 1642&lt;/span&gt;&lt;/li&gt;
+  &lt;li class=&quot;li2&quot;&gt;&lt;span class=&quot;s10&quot;&gt;&lt;/span&gt;&lt;span class=&quot;s8&quot;&gt;E-mail: &lt;a href=&quot;mailto:qiuge.zhang.bupt@gmail.com&quot;&gt;&lt;span class=&quot;s11&quot;&gt;qiuge.zhang.bupt@gmail.com&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&quot;p3&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p class=&quot;p8&quot;&gt;&lt;span class=&quot;s1&quot;&gt;Copyright © qiugezhang.com. All Rights Reserved&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p2&quot;&gt;&lt;span class=&quot;s3&quot;&gt;&lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/index_zqg.html&quot;&gt;Home&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s8&quot;&gt; | &lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/contact.html&quot;&gt;&lt;span class=&quot;s11&quot;&gt;Contact&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;file:///Users/curryxu/Documents/workspace/jekyll/_posts/blog.html&quot;&gt;&lt;span class=&quot;s11&quot;&gt;RSS&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;p9&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+        <pubDate>Thu, 14 Jan 2016 00:00:00 +0800</pubDate>
+        <link>http://yourdomain.com/2016/01/14/index.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/01/14/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Aaa</title>
+        <description>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Qiuge Zhang&#39;s Portfolio&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+&lt;link href=&quot;style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+&lt;link rel=&quot;icon&quot; href=&quot;images/logo.ico&quot; type=&quot;image/x-icon&quot; /&gt;
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;images/logo.ico&quot; type=&quot;image/x-icon&quot; /&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/js/jquery.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/js/easySlider1.5.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;
+// &lt;![CDATA[
+$(document).ready(function(){	
+	$(&quot;#slider&quot;).easySlider({
+		controlsBefore:	&#39;&lt;p id=&quot;controls&quot;&gt;&#39;,
+		controlsAfter:	&#39;&lt;/p&gt;&#39;,
+		auto: true, 
+		continuous: true
+	});	
+});
+// ]]&gt;
+&lt;/script&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+#slider { margin:0; padding:0; list-style:none; }
+#slider ul,
+#slider li { margin:0; padding:0; list-style:none; }
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li { width:906px; height:386px; overflow:hidden; }
+p#controls { margin:0; position:relative; }
+#prevBtn,
+#nextBtn { display:block; margin:0; overflow:hidden; width:44px; height:44px; position:absolute; left:0; top:-250px; }
+#nextBtn { left:862px; }
+#prevBtn a { display:block; width:44px; height:44px; background:url(/images/l_arrow.gif) no-repeat 0 0; }
+#nextBtn a { display:block; width:44px; height:44px; background:url(/images/r_arrow.gif) no-repeat 0 0; }
+.STYLE1 {
+	color: #FFFFFF;
+	font-size: 36px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.STYLE6 {font-size: 12px}
+.STYLE7 {font-size: 48px}
+.STYLE8 {font-size: 36px}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;main&quot;&gt;
+  &lt;div class=&quot;header&quot;&gt;
+    &lt;div class=&quot;block_header&quot;&gt;
+      &lt;div class=&quot;logo&quot;&gt;
+        &lt;p align=&quot;center&quot; class=&quot;STYLE1 &quot;&gt;&amp;nbsp;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;menu&quot;&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;index_zqg.html&quot; class=&quot;active&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;about me.html&quot;&gt;About Me&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;portfolio.html&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/test/contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;clr&quot;&gt; &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;slider&quot;&gt;
+    &lt;div class=&quot;slice1&quot;&gt;
+      &lt;div id=&quot;slider&quot;&gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;div class=&quot;top&quot; style=&quot;background:url(/index_images/banner_1.jpg) top no-repeat;&quot;&gt;
+              &lt;h2&gt;BetterRead&lt;/h2&gt;
+              &lt;p&gt;BetterRead is a rehabilitation training software aiming to improve the language (mainly Chinese) abilities of people with dyslexia, who has difficulties with recognizing, reading and writing word. I worked as the only designer in our team, responsible for designing the entire user interface and foreground coding. This software also won the second prize in Imagine Cup 2013 China Region.&lt;br/&gt;&lt;br/&gt;
+                &lt;a href=&quot;portfolio_001_imaginecup.html&quot;&gt;Click here to get more detail.&lt;/a&gt;&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;bot&quot;&gt;
+              &lt;h2&gt;Programming | Interaction design&lt;/h2&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;div class=&quot;top&quot; style=&quot;background:url(/index_images/banner_2.jpg) top no-repeat;&quot;&gt;
+              &lt;h2&gt;Paint&lt;/h2&gt;
+              &lt;p&gt;I love paint. In my spare time, I  make digital illustrations by Photoshop and  digital board, upload them to the Internet and communicate with others.&lt;br/&gt;&lt;br/&gt;
+              &lt;a href=&quot;portfolio_020_paint.html&quot;&gt;Click here to get more detail.&lt;/a&gt;&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;bot&quot;&gt;
+              &lt;h2&gt;Digital artwork&lt;/h2&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;div class=&quot;top&quot; style=&quot;background:url(index_images/banner_3.jpg) top no-repeat;&quot;&gt;
+              &lt;h2&gt;LeTV - Smart TV Interactive Theme Design&lt;/h2&gt;
+              &lt;p&gt;The difference of operating equipment between television, cell phone and PC determines their distinct interaction. Without mouse and touch screen, the UX design makes best use of remote control and avoids complicated operation.&lt;br/&gt;&lt;br/&gt;
+              &lt;a href=&quot;portfolio_010_letv.html&quot;&gt;Click here to get more detail.&lt;/a&gt;&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;bot&quot;&gt;
+              &lt;h2&gt;Interaction design&lt;/h2&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;  
+  &lt;div class=&quot;body&quot;&gt;
+    &lt;div class=&quot;body_resize&quot;&gt;
+      &lt;div class=&quot;Author&quot;&gt;
+        &lt;h2&gt;About Me&lt;/h2&gt;
+        &lt;p&gt;Hi! I am Qiuge Zhang. I am a student from School of Information and Communication Engineering at Beijing University of Posts and Telecommunication.&lt;/p&gt;
+        &lt;p&gt;&lt;a href=&quot;about me.html&quot;&gt;&lt;img src=&quot;images/read_more.gif&quot; alt=&quot;picture&quot; width=&quot;68&quot; height=&quot;20&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;animator&quot;&gt;
+        &lt;p&gt;&lt;a href=&quot;portfolio_020_paint.html&quot;&gt;&lt;img src=&quot;index_images/recent_2.jpg&quot; alt=&quot;picture&quot; width=&quot;170&quot; height=&quot;126&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;portfolio_001_imaginecup.html&quot;&gt;&lt;img src=&quot;index_images/recent_1.jpg&quot; alt=&quot;picture&quot; width=&quot;170&quot; height=&quot;126&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;portfolio_032_Tshirt.html&quot;&gt;&lt;img src=&quot;index_images/recent_3.jpg&quot; alt=&quot;picture&quot; width=&quot;170&quot; height=&quot;126&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        &lt;h2&gt;&amp;nbsp;&lt;/h2&gt;
+        &lt;h2&gt;&amp;nbsp;&lt;/h2&gt;
+        &lt;h2&gt;&amp;nbsp;&lt;/h2&gt;
+        &lt;h2&gt;My recent works&lt;/h2&gt;
+        &lt;p&gt;Here are my recentworks. To learn more about my works, please see my &lt;a href=&quot;portfolio.html&quot;&gt;portfilio&lt;/a&gt;.&lt;/p&gt;
+        &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;clr&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;clr&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;FBG&quot;&gt;
+    &lt;div class=&quot;Fbg_resize&quot;&gt;
+      &lt;div class=&quot;Twitter&quot;&gt;
+        &lt;p&gt;&lt;a href=&quot;http://www.renren.com/341071924&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;images/logo_renren.png&quot; alt=&quot;picture&quot; width=&quot;139&quot; height=&quot;82&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;To get more information, please follow my SNS.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;con&quot;&gt;
+        &lt;h2&gt;Contact&lt;/h2&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Beijing University of Posts and Telecommunications&lt;/li&gt;
+          &lt;li&gt;No.10, Xitucheng Road, Haidian District, Beijing, P.R.China, 100876&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Telephone: +(86) 189 0111 1642&lt;/li&gt;
+          &lt;li&gt;E-mail: &lt;a href=&quot;mailto:qiuge.zhang.bupt@gmail.com&quot;&gt;qiuge.zhang.bupt@gmail.com&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;clr&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;footer&quot;&gt;
+    &lt;div class=&quot;resize&quot;&gt;
+      &lt;div&gt;Copyright © qiugezhang.com. All Rights Reserved&lt;br /&gt;
+        &lt;a href=&quot;index_zqg.html&quot;&gt;Home&lt;/a&gt; | &lt;a href=&quot;contact.html&quot;&gt;Contact&lt;/a&gt; | &lt;a href=&quot;blog.html&quot;&gt;RSS&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p class=&quot;clr&quot;&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+        <pubDate>Thu, 14 Jan 2016 00:00:00 +0800</pubDate>
+        <link>http://yourdomain.com/2016/01/14/aaa.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/01/14/aaa.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Bbb</title>
+        <description>
+&lt;!DOCTYPE html&gt;
+&lt;!--[if lt IE 7 ]&gt; &lt;html class=&quot;ie ie6&quot;&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 7 ]&gt;    &lt;html class=&quot;ie ie7&quot;&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 8 ]&gt;    &lt;html class=&quot;ie ie8&quot;&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 9 ]&gt;    &lt;html class=&quot;ie ie9&quot;&gt; &lt;![endif]--&gt;
+&lt;!--[if (gt IE 9)|!(IE)]&gt;&lt;!--&gt; &lt;html class=&quot;&quot; lang=&quot;en&quot;&gt; &lt;!--&lt;![endif]--&gt;
+&lt;head&gt;
+	&lt;meta charset=&quot;UTF-8&quot;&gt;
+
+	&lt;title&gt;Jialin Xu&#39;s portfolio&lt;/title&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot;&gt;
+
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/bootstrap.min.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/font-awesome.min.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/owl.carousel.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/owl.theme.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/owl.transitions.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/style2.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/colors/cyan.css&quot;&gt;
+
+&lt;script src=&#39;/js/google_analytics_auto.js&#39;&gt;&lt;/script&gt;&lt;/head&gt;
+&lt;body class=&quot;color-grey&quot;&gt;
+
+	&lt;div id=&quot;loader-wrapper&quot;&gt;
+        &lt;div id=&quot;loader&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;loader-logo&quot;&gt;
+            &lt;img src=&quot;/img/2.jpg&quot; alt=&quot;&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;loader-section section-left&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;loader-section section-right&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+	
+	&lt;div class=&quot;wrapper color-grey&quot;&gt;
+		
+		&lt;section id=&quot;header&quot; class=&quot;header&quot;&gt;
+			&lt;div class=&quot;container&quot;&gt;
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;col-md-12&quot;&gt;
+
+
+						&lt;div class=&quot;logo&quot;&gt;
+							&lt;a href=&quot;/&quot;&gt;&lt;img src=&quot;/img/logo.png&quot; alt=&quot;LOGO&quot;&gt;&lt;/a&gt;
+						&lt;/div&gt;
+
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/section&gt;&lt;!-- /header --&gt;
+
+		&lt;section class=&quot;title&quot;&gt;
+			&lt;div class=&quot;container&quot;&gt;
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;col-md-12&quot;&gt;
+						&lt;div class=&quot;title-inner text-center no-pad-bottom no-pad-top&quot;&gt;
+							&lt;div class=&quot;title-border &quot;&gt;
+								&lt;h2 class=&quot;title-heading  no-pad-bottom&quot;&gt;Jialin Xu&lt;/h2&gt; &lt;p class=&quot;title-dsc no-pad-top no-pad-bottom&quot;&gt;I am one of those lucky people who have the chance to work on things they love and then make a difference.&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/section&gt;&lt;!--  /title --&gt;
+
+
+		&lt;section class=&quot;portfolio&quot;&gt;
+			&lt;div class=&quot;container&quot;&gt;
+
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;col-md-12&quot;&gt;
+
+						&lt;!--&lt;div id=&quot;filters&quot; class=&quot;filters text-uppercase text-center&quot;&gt;
+			                &lt;ul class=&quot;show-filters&quot;&gt;
+			                    &lt;li class=&quot;select-filter&quot;&gt;&lt;a href=&quot;#&quot; data-filter=&quot;*&quot; id=&quot;all&quot;&gt;Show all&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.ux&quot;&gt;UX Design&lt;/a&gt;&lt;/li&gt;
+			                    &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.mobile&quot;&gt;Mobile Design&lt;/a&gt;&lt;/li&gt;
+			                    &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.web&quot;&gt;Web Design&lt;/a&gt;&lt;/li&gt;
+			                    &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.print&quot;&gt;Print Design&lt;/a&gt;&lt;/li&gt;
+			                    &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.photography&quot;&gt;Photography&lt;/a&gt;&lt;/li&gt;
+			                &lt;/ul&gt;
+			            &lt;/div&gt;--&gt;&lt;!-- /filters --&gt;
+
+
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+
+
+	            		&lt;div id=&quot;work-wrap&quot; class=&quot;row&quot;&gt;
+
+
+				            &lt;!-- WORK ITEM --&gt;
+				            &lt;div class=&quot;item work-item imageParallax col-xs-12 col-sm-4 col-md-4 web uxd&quot;&gt;
+				                &lt;div class=&quot;item-inner&quot;&gt;
+					                &lt;a class=&quot;image-wrap&quot; href=&quot;#&quot;&gt;
+					                    &lt;img src=&quot;/img/1.jpg&quot; alt=&quot;&quot; class=&quot;image&quot;&gt;
+					                &lt;/a&gt;
+					                &lt;div class=&quot;caption bg-orange-red&quot;&gt;
+					                    &lt;div class=&quot;inner&quot;&gt;
+					                        &lt;h4 class=&quot;sm text-uppercase&quot;&gt;&lt;a href=&quot;#&quot;&gt;Curry&lt;/a&gt;&lt;/h4&gt;
+					                        &lt;em&gt;Web Design&lt;/em&gt;
+					                    &lt;/div&gt;
+					                    
+					                &lt;/div&gt;
+					            &lt;/div&gt;
+				            &lt;/div&gt;
+				            &lt;!-- END / WORK ITEM --&gt;
+
+				&lt;!-- WORK ITEM --&gt;
+				            &lt;div class=&quot;item work-item imageParallax col-xs-12 col-sm-8 col-md-8 uxd&quot;&gt;
+				                &lt;div class=&quot;item-inner&quot;&gt;
+					                &lt;a class=&quot;image-wrap&quot; href=&quot;#&quot; target=&quot;_blank&quot;&gt;
+					                    &lt;img src=&quot;/img/2.jpg&quot; alt=&quot;&quot; class=&quot;image&quot;&gt;
+					                &lt;/a&gt;
+					                &lt;div class=&quot;caption bg-black&quot; href=&quot;#&quot; target=&quot;_blank&quot;&gt;
+                                    &lt;a class=&quot;image-wrap&quot; href=&quot;#&quot; target=&quot;_blank&quot;&gt;
+					                    &lt;div class=&quot;inner&quot;&gt;
+					                        &lt;h4 class=&quot;sm text-uppercase&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt; 你HCI申请路上的坚实伴侣&lt;/a&gt;&lt;/h4&gt;
+					                        &lt;em&gt;Consulting&lt;/em&gt;
+					                    &lt;/div&gt;
+                                       &lt;/a&gt;
+					                &lt;/div&gt;
+					            &lt;/div&gt;
+				            &lt;/div&gt;
+				            &lt;!-- END / WORK ITEM --&gt;
+                            
+                            &lt;!-- WORK ITEM --&gt;
+				            &lt;div class=&quot;item work-item imageParallax col-xs-12 col-sm-8 col-md-8 uxd&quot;&gt;
+				                &lt;div class=&quot;item-inner&quot;&gt;
+					                &lt;a class=&quot;image-wrap&quot; href=&quot;projects/g2mep.html&quot;&gt;
+					                    &lt;img src=&quot;/img/g2mep/snapshot.png&quot; alt=&quot;&quot; class=&quot;image&quot;&gt;
+					                &lt;/a&gt;
+					                &lt;div class=&quot;caption bg-yellow&quot; href=&quot;projects/g2mep.html&quot;&gt;
+                                    &lt;a class=&quot;image-wrap&quot; href=&quot;projects/g2mep.html&quot;&gt;
+					                    &lt;div class=&quot;inner&quot;&gt;
+					                        &lt;h4 class=&quot;sm text-uppercase&quot;&gt;&lt;a href=&quot;projects/g2mep.html&quot;&gt;G2M application refresh&lt;/a&gt;&lt;/h4&gt;
+					                        &lt;em&gt;UX Design&lt;/em&gt;
+					                    &lt;/div&gt;
+                                       &lt;/a&gt;
+					                &lt;/div&gt;
+					            &lt;/div&gt;
+				            &lt;/div&gt;
+				            &lt;!-- END / WORK ITEM --&gt;
+                            
+                              &lt;!-- WORK ITEM --&gt;
+				            &lt;div class=&quot;item work-item imageParallax col-xs-12 col-sm-4 col-md-4&quot;&gt;
+				                &lt;div class=&quot;item-inner&quot;&gt;
+					                &lt;a class=&quot;image-wrap&quot; href=&quot;projects/amazon.html&quot;&gt;
+					                    &lt;img src=&quot;/img/amazon/snapshot.png&quot; alt=&quot;&quot; class=&quot;image&quot;&gt;
+					                &lt;/a&gt;
+					                &lt;div class=&quot;caption bg-orange&quot;&gt;
+					                    &lt;div class=&quot;inner&quot;&gt;
+					                        &lt;h4 class=&quot;sm text-uppercase&quot;&gt;&lt;a href=&quot;projects/amazon.html&quot;&gt;AmazonGlobal usability testing&lt;/a&gt;&lt;/h4&gt;
+					                        &lt;em&gt;UX Research&lt;/em&gt;
+					                    &lt;/div&gt;
+					                &lt;/div&gt;
+					            &lt;/div&gt;
+				            &lt;/div&gt;
+				            &lt;!-- END / WORK ITEM --&gt;
+                            
+                            
+				            &lt;!-- WORK ITEM --&gt;
+				            &lt;div class=&quot;item work-item imageParallax col-xs-12 col-sm-4 col-md-4&quot;&gt;
+				                &lt;div class=&quot;item-inner&quot;&gt;
+					                &lt;a class=&quot;image-wrap&quot; href=&quot;projects/htc.html&quot;&gt;
+					                    &lt;img src=&quot;/img/htc/snapshot.png&quot; alt=&quot;&quot; class=&quot;image&quot;&gt;
+					                &lt;/a&gt;
+					                &lt;div class=&quot;caption bg-green&quot;&gt;
+					                    &lt;div class=&quot;inner&quot;&gt;
+					                        &lt;h4 class=&quot;sm text-uppercase&quot;&gt;&lt;a href=&quot;projects/htc.html&quot;&gt;HTC Ice winter olympic app&lt;/a&gt;&lt;/h4&gt;
+					                        &lt;em&gt;UX Design&lt;/em&gt;
+					                    &lt;/div&gt;
+					                &lt;/div&gt;
+					            &lt;/div&gt;
+				            &lt;/div&gt;
+				            &lt;!-- END / WORK ITEM --&gt;
+
+
+
+				            &lt;!-- WORK ITEM --&gt;
+				            &lt;div class=&quot;item work-item imageParallax col-xs-12 col-sm-4 col-md-4 uxd&quot;&gt;
+				            	&lt;div class=&quot;item-inner&quot;&gt;
+					                &lt;a class=&quot;image-wrap&quot; href=&quot;projects/chase.html&quot;&gt;
+					                    &lt;img src=&quot;/img/chase/snapshot.png&quot; alt=&quot;&quot; class=&quot;image&quot;&gt;
+					                &lt;/a&gt;
+					                &lt;div class=&quot;caption bg-blue&quot;&gt;
+					                    &lt;div class=&quot;inner&quot;&gt;
+					                        &lt;h4 class=&quot;sm text-uppercase&quot;&gt;&lt;a href=&quot;projects/chase.html&quot;&gt;Chase eBills usability testing&lt;/a&gt;&lt;/h4&gt;
+					                        &lt;em&gt;UX Research&lt;/em&gt;
+					                    &lt;/div&gt;
+					                &lt;/div&gt;
+				                &lt;/div&gt;
+				            &lt;/div&gt;
+				            &lt;!-- END / WORK ITEM --&gt;
+
+
+
+
+		        		&lt;/div&gt;
+
+			&lt;/div&gt;
+		&lt;/section&gt; &lt;!-- /portfolio --&gt;
+        
+        &lt;footer class=&quot;footer&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                
+                &lt;hr class=&quot;divider&quot;&gt;
+                
+				&lt;div class=&quot;footer-info&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;div class=&quot;col-md-4&quot;&gt;
+                            &lt;div class=&quot;logo-footer equal-height&quot;&gt;
+                                
+                               
+                                &lt;h3 class=&quot;head-title&quot;&gt;Get connected with me&lt;/h3&gt;
+                                
+                                &lt;ul class=&quot;social-link&quot;&gt;
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-behance&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-tumblr&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-dribbble&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;col-md-4&quot;&gt;
+                            &lt;div class=&quot;twitter text-center equal-height&quot;&gt;
+                                &lt;div class=&quot;f-title&quot;&gt;
+                                    &lt;i class=&quot;fa fa-file-pdf-o&quot;&gt;&lt;/i&gt;
+                                    &lt;br /&gt;
+                                    &lt;br /&gt;
+                                    &lt;br /&gt;
+                                    
+                                    &lt;a href=&quot;JialinXu.pdf&quot;&gt;Download my portfolio&lt;/a&gt;
+                                &lt;/div&gt;
+                                
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class=&quot;col-md-4&quot;&gt;
+                            &lt;div class=&quot;footer-slide text-center equal-height&quot;&gt;
+                                &lt;div class=&quot;f-title&quot;&gt;
+                                    &lt;i class=&quot;fa fa-envelope-o&quot;&gt;&lt;/i&gt;
+                                     &lt;a href=&quot;/cdn-cgi/l/email-protection#29505c4148474e5c5e694e44484045074a4644&quot;&gt;Email:&lt;span class=&quot;__cf_email__&quot; data-cfemail=&quot;334a465b525d54464473545e525a5f1d505c5e&quot;&gt;[email&amp;#160;protected]&lt;/span&gt;&lt;script data-cfhash=&#39;f9e31&#39; type=&quot;text/javascript&quot;&gt;
+/* &lt;![CDATA[ */!function(){try{var t=&quot;currentScript&quot;in document?document.currentScript:function(){for(var t=document.getElementsByTagName(&quot;script&quot;),e=t.length;e--;)if(t[e].getAttribute(&quot;data-cfhash&quot;))return t[e]}();if(t&amp;&amp;t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute(&quot;data-cfemail&quot;);if(a){for(e=&quot;&quot;,r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]&gt; */&lt;/script&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;f-title&quot;&gt;
+                                    &lt;i class=&quot;fa fa-mobile&quot;&gt;&lt;/i&gt;
+                                    &lt;a href=&quot;#&quot;&gt;Cell:86 15101122595~~~aaaa&lt;/a&gt;
+                                &lt;/div&gt;
+                                
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;hr class=&quot;divider&quot;&gt;
+                &lt;div class=&quot;row&quot;&gt;
+                    &lt;div class=&quot;col-md-12&quot;&gt;
+                        &lt;div class=&quot;copy-right text-center&quot;&gt;
+                            &lt;p&gt;© 2015 Hang Yu&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                
+            &lt;/div&gt;
+        &lt;/footer&gt;
+
+
+
+
+
+	&lt;/div&gt;&lt;!-- /wrapper --&gt;
+
+    &lt;script type=&quot;text/javascript&quot; src=&quot;/js/jquery-1.11.2.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;/js/ie10-viewport-bug-workaround.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;/js/isotope.pkgd.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;/js/imagesloaded.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;/js/owl.carousel.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;/js/jquery.matchHeight-min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;/js/masonry.pkgd.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;/js/scripts.js&quot;&gt;&lt;/script&gt;
+
+
+	&lt;script&gt;
+  (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,&#39;script&#39;,&#39;//www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
+
+  ga(&#39;create&#39;, &#39;UA-38313226-1&#39;, &#39;auto&#39;);
+  ga(&#39;send&#39;, &#39;pageview&#39;);
+
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+/* &lt;![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName(&quot;a&quot;),t=document.createElement(&quot;textarea&quot;);for(i=0;l.length-i;i++){try{a=l[i].getAttribute(&quot;href&quot;);if(a&amp;&amp;a.indexOf(&quot;/cdn-cgi/l/email-protection&quot;) &gt; -1  &amp;&amp; (a.length &gt; 28)){s=&#39;&#39;;j=27+ 1 + a.indexOf(&quot;/cdn-cgi/l/email-protection&quot;);if (a.length &gt; j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length&gt;j&amp;&amp;a.substr(j,1)!=&#39;X&#39;;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/&lt;/g,&quot;&amp;lt;&quot;).replace(/&gt;/g,&quot;&amp;gt;&quot;);l[i].setAttribute(&quot;href&quot;,&quot;mailto:&quot;+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+        <pubDate>Wed, 13 Jan 2016 00:00:00 +0800</pubDate>
+        <link>http://yourdomain.com/2016/01/13/bbb.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/01/13/bbb.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
